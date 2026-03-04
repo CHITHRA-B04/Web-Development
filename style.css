@@ -1,0 +1,50 @@
+/* External CSS*/
+/* Inline CSS*/
+h1{
+    background-color: blue; 
+    text-align:center; 
+    letter-spacing:3px; 
+    font-size:30px;font-family:'Courier New', Courier, monospace;color:brown"
+}
+/* Internal CSS*/
+/* styling by Tag Name*/
+h2{
+    text-align: center;
+    background-color:black;
+    color: beige;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+/* styling by Id Name*/
+#myid{
+    text-align: center;
+    font-size: 60px;
+    font-family: sans-serif;
+    font-style: normal;
+    background-color: aqua;
+    color: black;
+}
+/* styling by Class Name*/
+.mycls{
+    text-align: center;
+    font-size: 50px;
+    font-family: cursive;
+    font-style:normal;
+    background-color: blueviolet;
+    color: coral;
+}
+.b{
+    /* Box Model */
+    border-radius: 30px;
+    border-width: 5px;
+    border-color: darkred;
+    border-style: solid;
+    padding: 30px;
+    margin: 20px;
+}
+body{
+    /* background-color: darkcyan; */
+    background-image: url("https://images.pexels.com/photos/7539757/pexels-photo-7539757.jpeg");
+    background-size: cover;
+}
